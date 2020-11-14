@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.asu.msse.sjcampb2.smarterdrivers.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_dash"
+        android:name="com.asu.msse.sjcampb2.smarterdrivers.ui.dash.DashFragment"
+        android:label="@string/menu_dash"
+        tools:layout="@layout/fragment_dash" />
+
+    <fragment
+        android:id="@+id/nav_inv"
+        android:name="com.asu.msse.sjcampb2.smarterdrivers.ui.inventory.InventoryFragment"
+        android:label="@string/menu_inventory"
+        tools:layout="@layout/fragment_alerts" />
+    <fragment
+        android:id="@+id/nav_GPS"
+        android:name="com.asu.msse.sjcampb2.smarterdrivers.ui.gps.GPSFragment"
+        android:label="@string/menu_GPS"
+        tools:layout="@layout/fragment_alerts" />
+    <fragment
+        android:id="@+id/nav_alerts"
+        android:name="com.asu.msse.sjcampb2.smarterdrivers.ui.alerts.AlertsFragment"
+        android:label="@string/menu_alerts"
+        tools:layout="@layout/fragment_alerts" />
+    <fragment
+        android:id="@+id/nav_maint"
+        android:name="com.asu.msse.sjcampb2.smarterdrivers.ui.maintenance.MaintenanceFragment"
+        android:label="@string/menu_maint"
+        tools:layout="@layout/fragment_alerts" />
+</navigation>
