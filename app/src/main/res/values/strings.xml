@@ -20,4 +20,13 @@
     <string name="home_add_event">Add Event</string>
     <string name="home_scanQR">Scan Vehicle Tag</string>
     <string name="home_service">Log Service</string>
+    <string name="asset_tag">Asset Tag</string>
+    <string name="license_plate">License Plate</string>
+    <string name="asset_3">Asset 3</string>
+    <string name="asset_2">Asset 2</string>
+    <string name="asset_1">Asset 1</string>
+    <string name="insurance">Insurance</string>
+    <string name="warranty">Warranty</string>
+    <string name="next_service">Next Service</string>
+    <string name="vin">VIN</string>
 </resources>
