@@ -29,4 +29,5 @@
     <string name="warranty">Warranty</string>
     <string name="next_service">Next Service</string>
     <string name="vin">VIN</string>
+    <string name="driver_id">Driver ID</string>
 </resources>
