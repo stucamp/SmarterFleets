@@ -36,4 +36,20 @@
     <string name="part_recommendation">Part Recommendation</string>
     <string name="forecasted_loss">Forecasts</string>
     <string name="repair_shop_discounts">Repair Shop Discounts</string>
+    <string name="use_of_programming_languages_in_percentage">Expenditure By Type:</string>
+    <string name="r">Fuel</string>
+    <string name="python">Preventative Maintenance</string>
+    <string name="c">Unscheduled Repair</string>
+    <string name="java">Misc</string>
+
+    <string name="rec_one">Use 5w20 Oil + 5% fuel eff</string>
+    <string name="rec_two">Toyo M122 for + 10K miles</string>
+    <string name="rec_three">Bosch BC906 Pads + 6 mo</string>
+    <string name="rec_four">K N Cabin Air + 2% fuel eff</string>
+
+    <string name="part1">ID 0001</string>
+    <string name="part2">ID 0004</string>
+    <string name="part3">ID 0002</string>
+    <string name="part4">ID 0003</string>
+
 </resources>
