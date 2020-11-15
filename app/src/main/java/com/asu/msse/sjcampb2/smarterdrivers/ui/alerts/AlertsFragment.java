@@ -22,7 +22,9 @@ public class AlertsFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         alertsViewModel =
                 new ViewModelProvider(this).get(AlertsViewModel.class);
+
         View root = inflater.inflate(R.layout.fragment_alerts, container, false);
+
         alertsViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {

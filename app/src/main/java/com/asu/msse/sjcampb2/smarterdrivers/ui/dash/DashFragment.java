@@ -22,7 +22,9 @@ public class DashFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         dashViewModel =
                 new ViewModelProvider(this).get(DashViewModel.class);
+
         View root = inflater.inflate(R.layout.fragment_dash, container, false);
+
         dashViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {

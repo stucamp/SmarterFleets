@@ -34,6 +34,6 @@
     <string name="driver_id">Driver ID</string>
     <string name="maintenance_budget">Maintenance Budget</string>
     <string name="part_recommendation">Part Recommendation</string>
-    <string name="forecasted_loss">Forecasted Loss</string>
+    <string name="forecasted_loss">Forecasts</string>
     <string name="repair_shop_discounts">Repair Shop Discounts</string>
 </resources>
