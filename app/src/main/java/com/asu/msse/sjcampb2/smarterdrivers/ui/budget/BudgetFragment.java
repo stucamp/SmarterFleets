@@ -172,10 +172,6 @@ public class BudgetFragment extends Fragment {
             }
         });
 
-
-
-
-
         budgetViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
