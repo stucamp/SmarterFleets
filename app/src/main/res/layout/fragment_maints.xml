@@ -29,15 +29,13 @@
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/maintTabLayout"
-        android:background="@color/secondarColorVariat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/divider2"
+        android:background="@color/secondarColorVariat"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider"
-        app:layout_constraintVertical_bias="0.475">
+        app:layout_constraintTop_toBottomOf="@+id/divider">
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/maintTab0"
@@ -58,25 +56,14 @@
             android:text="Asset 3" />
     </com.google.android.material.tabs.TabLayout>
 
-    <View
-        android:id="@+id/divider2"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginBottom="284dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider2" />
+        app:layout_constraintTop_toBottomOf="@+id/maintTabLayout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
