@@ -29,6 +29,7 @@
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/maintTabLayout"
+        android:background="@color/secondarColorVariat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/divider2"
@@ -62,7 +63,6 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginBottom="284dp"
-        android:background="?android:attr/listDivider"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

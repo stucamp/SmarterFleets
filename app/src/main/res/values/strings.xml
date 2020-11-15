@@ -32,4 +32,8 @@
     <string name="next_service">Next Service</string>
     <string name="vin">VIN</string>
     <string name="driver_id">Driver ID</string>
+    <string name="maintenance_budget">Maintenance Budget</string>
+    <string name="part_recommendation">Part Recommendation</string>
+    <string name="forecasted_loss">Forecasted Loss</string>
+    <string name="repair_shop_discounts">Repair Shop Discounts</string>
 </resources>
