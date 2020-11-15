@@ -28,6 +28,7 @@
         app:layout_constraintTop_toBottomOf="@+id/calendarView" />
 
     <com.google.android.material.tabs.TabLayout
+        android:id="@+id/maintTabLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/divider2"
@@ -38,16 +39,19 @@
         app:layout_constraintVertical_bias="0.475">
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/maintTab0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Asset 1" />
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/maintTab1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Asset 2" />
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/maintTab2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Asset 3" />
@@ -69,19 +73,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
-        android:text="Asset 1 - General Service Due!"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider2" />
 
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:text="Asset 3 - General Service Upcoming!"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
 </androidx.constraintlayout.widget.ConstraintLayout>

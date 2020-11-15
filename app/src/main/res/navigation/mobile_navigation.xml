@@ -21,12 +21,12 @@
         android:id="@+id/nav_inv"
         android:name="com.asu.msse.sjcampb2.smarterdrivers.ui.inventory.InventoryFragment"
         android:label="@string/menu_inventory"
-        tools:layout="@layout/fragment_alerts" />
+        tools:layout="@layout/fragment_inv" />
     <fragment
         android:id="@+id/nav_GPS"
         android:name="com.asu.msse.sjcampb2.smarterdrivers.ui.gps.GPSFragment"
         android:label="@string/menu_GPS"
-        tools:layout="@layout/fragment_alerts" />
+        tools:layout="@layout/fragment_gps" />
     <fragment
         android:id="@+id/nav_alerts"
         android:name="com.asu.msse.sjcampb2.smarterdrivers.ui.alerts.AlertsFragment"
@@ -36,5 +36,5 @@
         android:id="@+id/nav_maint"
         android:name="com.asu.msse.sjcampb2.smarterdrivers.ui.maintenance.MaintenanceFragment"
         android:label="@string/menu_maint"
-        tools:layout="@layout/fragment_alerts" />
+        tools:layout="@layout/fragment_maints" />
 </navigation>

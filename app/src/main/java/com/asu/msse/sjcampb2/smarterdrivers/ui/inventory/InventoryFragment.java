@@ -37,19 +37,55 @@ public class InventoryFragment extends Fragment {
                 new ViewModelProvider(this).get(InventoryViewModel.class);
         View root = inflater.inflate(R.layout.fragment_inv, container, false);
 
-        
-
         TabLayout tabl = root.findViewById(R.id.tabLayout);
+
+        TextView assetTag = root.findViewById(R.id.textView21);
+        TextView licensePlate = root.findViewById(R.id.textView22);
+        TextView vin = root.findViewById(R.id.textView23);
+        TextView insurance = root.findViewById(R.id.textView24);
+        TextView warranty = root.findViewById(R.id.textView25);
+        TextView nextService = root.findViewById(R.id.textView26);
+        TextView driverID = root.findViewById(R.id.textView27);
+
+        assetTag.setText(assetDeets[0][0]);
+        licensePlate.setText(assetDeets[0][1]);
+        vin.setText(assetDeets[0][2]);
+        insurance.setText(assetDeets[0][3]);
+        warranty.setText(assetDeets[0][4]);
+        nextService.setText(assetDeets[0][5]);
+        driverID.setText(assetDeets[0][6]);
+
         tabl.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
-                Log.v("", "ON SELECTED FUCKING WORKS");
+
                 switch(tab.getPosition()) {
                     case 0:
+                        assetTag.setText(assetDeets[0][0]);
+                        licensePlate.setText(assetDeets[0][1]);
+                        vin.setText(assetDeets[0][2]);
+                        insurance.setText(assetDeets[0][3]);
+                        warranty.setText(assetDeets[0][4]);
+                        nextService.setText(assetDeets[0][5]);
+                        driverID.setText(assetDeets[0][6]);
                         break;
                     case 1:
+                        assetTag.setText(assetDeets[1][0]);
+                        licensePlate.setText(assetDeets[1][1]);
+                        vin.setText(assetDeets[1][2]);
+                        insurance.setText(assetDeets[1][3]);
+                        warranty.setText(assetDeets[1][4]);
+                        nextService.setText(assetDeets[1][5]);
+                        driverID.setText(assetDeets[1][6]);
                         break;
                     case 2:
+                        assetTag.setText(assetDeets[2][0]);
+                        licensePlate.setText(assetDeets[2][1]);
+                        vin.setText(assetDeets[2][2]);
+                        insurance.setText(assetDeets[2][3]);
+                        warranty.setText(assetDeets[2][4]);
+                        nextService.setText(assetDeets[2][5]);
+                        driverID.setText(assetDeets[2][6]);
                         break;
                     default:
                         break;
