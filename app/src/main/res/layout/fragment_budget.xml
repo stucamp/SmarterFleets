@@ -12,6 +12,38 @@
 
     <!-- Card view for displaying the -->
     <!-- Pie chart and details of pie chart -->
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/budget_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"
+        android:background="@color/secondarColorVariat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/maintTab0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asset 1" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/maintTab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asset 2" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/maintTab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asset 3" />
+    </com.google.android.material.tabs.TabLayout>
+
     <androidx.cardview.widget.CardView
         android:id="@+id/cardViewGraph"
         android:layout_width="match_parent"
