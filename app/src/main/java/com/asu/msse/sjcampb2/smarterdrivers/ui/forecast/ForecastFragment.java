@@ -22,7 +22,7 @@ public class ForecastFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         forecastViewModel =
                 new ViewModelProvider(this).get(ForecastViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_alerts, container, false);
+        View root = inflater.inflate(R.layout.fragment_forecast, container, false);
         forecastViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {

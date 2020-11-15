@@ -22,7 +22,7 @@ public class PartsFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         partsViewModel =
                 new ViewModelProvider(this).get(PartsViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_alerts, container, false);
+        View root = inflater.inflate(R.layout.fragment_parts, container, false);
         partsViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {

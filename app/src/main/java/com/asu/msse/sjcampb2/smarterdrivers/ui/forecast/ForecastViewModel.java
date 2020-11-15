@@ -10,7 +10,7 @@ public class ForecastViewModel extends ViewModel {
 
     public ForecastViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is alerts fragment");
+        mText.setValue("This is forecast fragment");
     }
 
     public LiveData<String> getText() {

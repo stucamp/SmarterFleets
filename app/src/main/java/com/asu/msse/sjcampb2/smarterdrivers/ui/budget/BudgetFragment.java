@@ -22,7 +22,7 @@ public class BudgetFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         budgetViewModel =
                 new ViewModelProvider(this).get(BudgetViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_alerts, container, false);
+        View root = inflater.inflate(R.layout.fragment_budget, container, false);
         budgetViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
